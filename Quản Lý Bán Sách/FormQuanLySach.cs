@@ -132,5 +132,10 @@ namespace Quản_Lý_Bán_Sách
             KetNoi.Close();
         }
 
+        private void listView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

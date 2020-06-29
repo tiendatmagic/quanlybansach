@@ -66,7 +66,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(264, 21);
+            this.label1.Location = new System.Drawing.Point(311, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(271, 40);
             this.label1.TabIndex = 0;
@@ -74,9 +74,9 @@
             // 
             // treeView
             // 
-            this.treeView.Location = new System.Drawing.Point(11, 58);
+            this.treeView.Location = new System.Drawing.Point(12, 61);
             this.treeView.Name = "treeView";
-            this.treeView.Size = new System.Drawing.Size(241, 218);
+            this.treeView.Size = new System.Drawing.Size(320, 218);
             this.treeView.TabIndex = 1;
             this.treeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterSelect);
             this.treeView.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView_NodeMouseClick);
@@ -85,7 +85,7 @@
             // buttonThoat
             // 
             this.buttonThoat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.buttonThoat.Location = new System.Drawing.Point(719, 205);
+            this.buttonThoat.Location = new System.Drawing.Point(819, 199);
             this.buttonThoat.Name = "buttonThoat";
             this.buttonThoat.Size = new System.Drawing.Size(76, 43);
             this.buttonThoat.TabIndex = 7;
@@ -96,7 +96,7 @@
             // buttonLuu
             // 
             this.buttonLuu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.buttonLuu.Location = new System.Drawing.Point(719, 138);
+            this.buttonLuu.Location = new System.Drawing.Point(819, 132);
             this.buttonLuu.Name = "buttonLuu";
             this.buttonLuu.Size = new System.Drawing.Size(76, 43);
             this.buttonLuu.TabIndex = 5;
@@ -107,7 +107,7 @@
             // buttonThem
             // 
             this.buttonThem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.buttonThem.Location = new System.Drawing.Point(719, 67);
+            this.buttonThem.Location = new System.Drawing.Point(819, 61);
             this.buttonThem.Name = "buttonThem";
             this.buttonThem.Size = new System.Drawing.Size(76, 43);
             this.buttonThem.TabIndex = 6;
@@ -119,7 +119,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label6.Location = new System.Drawing.Point(266, 217);
+            this.label6.Location = new System.Drawing.Point(349, 207);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(99, 19);
             this.label6.TabIndex = 2;
@@ -129,7 +129,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(266, 185);
+            this.label5.Location = new System.Drawing.Point(349, 168);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 19);
             this.label5.TabIndex = 2;
@@ -139,7 +139,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(266, 154);
+            this.label4.Location = new System.Drawing.Point(349, 133);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(73, 19);
             this.label4.TabIndex = 2;
@@ -149,7 +149,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(266, 122);
+            this.label3.Location = new System.Drawing.Point(349, 97);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 19);
             this.label3.TabIndex = 2;
@@ -159,7 +159,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(266, 90);
+            this.label2.Location = new System.Drawing.Point(351, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 19);
             this.label2.TabIndex = 2;
@@ -170,7 +170,7 @@
             this.comboBoxNXB.DataSource = this.nhaXuatBanBindingSource;
             this.comboBoxNXB.DisplayMember = "TenNXB";
             this.comboBoxNXB.FormattingEnabled = true;
-            this.comboBoxNXB.Location = new System.Drawing.Point(382, 214);
+            this.comboBoxNXB.Location = new System.Drawing.Point(465, 204);
             this.comboBoxNXB.Name = "comboBoxNXB";
             this.comboBoxNXB.Size = new System.Drawing.Size(318, 27);
             this.comboBoxNXB.TabIndex = 4;
@@ -192,28 +192,28 @@
             // 
             // textBoxDonGia
             // 
-            this.textBoxDonGia.Location = new System.Drawing.Point(382, 185);
+            this.textBoxDonGia.Location = new System.Drawing.Point(465, 168);
             this.textBoxDonGia.Name = "textBoxDonGia";
             this.textBoxDonGia.Size = new System.Drawing.Size(318, 26);
             this.textBoxDonGia.TabIndex = 3;
             // 
             // textBoxSoLuong
             // 
-            this.textBoxSoLuong.Location = new System.Drawing.Point(382, 154);
+            this.textBoxSoLuong.Location = new System.Drawing.Point(465, 133);
             this.textBoxSoLuong.Name = "textBoxSoLuong";
             this.textBoxSoLuong.Size = new System.Drawing.Size(318, 26);
             this.textBoxSoLuong.TabIndex = 2;
             // 
             // textBoxTenSach
             // 
-            this.textBoxTenSach.Location = new System.Drawing.Point(382, 122);
+            this.textBoxTenSach.Location = new System.Drawing.Point(465, 97);
             this.textBoxTenSach.Name = "textBoxTenSach";
             this.textBoxTenSach.Size = new System.Drawing.Size(318, 26);
             this.textBoxTenSach.TabIndex = 1;
             // 
             // textBoxMaSach
             // 
-            this.textBoxMaSach.Location = new System.Drawing.Point(382, 90);
+            this.textBoxMaSach.Location = new System.Drawing.Point(465, 61);
             this.textBoxMaSach.Name = "textBoxMaSach";
             this.textBoxMaSach.Size = new System.Drawing.Size(318, 26);
             this.textBoxMaSach.TabIndex = 0;
@@ -230,7 +230,7 @@
             this.listView.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.listView.Location = new System.Drawing.Point(11, 290);
             this.listView.Name = "listView";
-            this.listView.Size = new System.Drawing.Size(695, 202);
+            this.listView.Size = new System.Drawing.Size(884, 202);
             this.listView.TabIndex = 3;
             this.listView.UseCompatibleStateImageBehavior = false;
             this.listView.View = System.Windows.Forms.View.Details;
@@ -268,7 +268,7 @@
             // 
             // textBoxTongTien
             // 
-            this.textBoxTongTien.Location = new System.Drawing.Point(382, 244);
+            this.textBoxTongTien.Location = new System.Drawing.Point(465, 239);
             this.textBoxTongTien.Name = "textBoxTongTien";
             this.textBoxTongTien.ReadOnly = true;
             this.textBoxTongTien.Size = new System.Drawing.Size(318, 26);
@@ -278,7 +278,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label7.Location = new System.Drawing.Point(253, 252);
+            this.label7.Location = new System.Drawing.Point(347, 247);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(106, 19);
             this.label7.TabIndex = 2;
@@ -292,7 +292,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(828, 493);
+            this.ClientSize = new System.Drawing.Size(957, 493);
             this.Controls.Add(this.buttonThoat);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.buttonLuu);

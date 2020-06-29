@@ -17,37 +17,37 @@ namespace Quản_Lý_Bán_Sách
         {
             InitializeComponent();
         }
-        string ChuoiKetNoi = @"Data Source=ADMIN\SQLEXPRESS;Initial Catalog=QuanLyBanSach;Integrated Security=True";
+        string ChuoiKetnoi = @"Data Source=ADMIN\SQLEXPRESS;Initial Catalog=QuanLyBanSach;Integrated Security=True";
         string sql;
-        SqlConnection KetNoi;
+        SqlConnection Ketnoi;
         SqlCommand ThucHien;
         SqlDataReader DocDuLieu;
         int TongTien = 0;
         private void FormQuanLySach_Load(object sender, EventArgs e)
         {           
             this.nhaXuatBanTableAdapter.Fill(this.quanLyBanSachDataSet.NhaXuatBan);
-            KetNoi = new SqlConnection(ChuoiKetNoi);
-            HienDuLieu();
+            Ketnoi = new SqlConnection(ChuoiKetnoi);
+            Xemdulieu();
         }
-        void HienDuLieu()
+        void Xemdulieu()
         {
             sql = @"SELECT TenNXB FROM NhaXuatBan";
-            ThucHien = new SqlCommand(sql, KetNoi);
-            KetNoi.Open();
+            ThucHien = new SqlCommand(sql, Ketnoi);
+            Ketnoi.Open();
             DocDuLieu = ThucHien.ExecuteReader();
             while (DocDuLieu.Read())
             {
                 treeView.Nodes.Add(DocDuLieu[0].ToString());
             }
-            KetNoi.Close();
+            Ketnoi.Close();
 
 
             listView.Items.Clear();
             int i = 0;
             TongTien = 0;
             sql = @"SELECT Sach.MaSach, Sach.Ten, Sach.SoLuong, Sach.DonGia, Sach.SoLuong*Sach.DonGia, NhaXuatBan.TenNXB FROM Sach INNER JOIN NhaXuatBan ON Sach.MaNXB = NhaXuatBan.MaNXB";
-            ThucHien = new SqlCommand(sql, KetNoi);
-            KetNoi.Open();
+            ThucHien = new SqlCommand(sql, Ketnoi);
+            Ketnoi.Open();
             DocDuLieu = ThucHien.ExecuteReader();
             while (DocDuLieu.Read())
             {
@@ -61,7 +61,7 @@ namespace Quản_Lý_Bán_Sách
                 i++;
             }
             textBoxTongTien.Text = TongTien.ToString();
-            KetNoi.Close();
+            Ketnoi.Close();
             textBoxMaSach.ReadOnly = true;
             textBoxTenSach.ReadOnly = true;
             textBoxSoLuong.ReadOnly = true;
@@ -80,21 +80,21 @@ namespace Quản_Lý_Bán_Sách
         {
             string MaNXB="";
             sql = @"SELECT MaNXB FROM NhaXuatBan WHERE (TenNXB = N'"+comboBoxNXB.Text+"')";
-            ThucHien = new SqlCommand(sql, KetNoi);
-            KetNoi.Open();
+            ThucHien = new SqlCommand(sql, Ketnoi);
+            Ketnoi.Open();
             DocDuLieu = ThucHien.ExecuteReader();
             while (DocDuLieu.Read())
                 MaNXB = DocDuLieu[0].ToString();
-            KetNoi.Close();
+            Ketnoi.Close();
 
 
             sql = @"INSERT INTO Sach(MaSach, Ten, SoLuong, DonGia, MaNXB) VALUES (N'"+textBoxMaSach.Text+@"',N'"+textBoxTenSach.Text+@"',"+textBoxSoLuong.Text+@","+textBoxDonGia.Text+@",N'" + MaNXB + "')";
-            KetNoi = new SqlConnection(ChuoiKetNoi);
-            ThucHien = new SqlCommand(sql, KetNoi);
-            KetNoi.Open();
+            Ketnoi = new SqlConnection(ChuoiKetnoi);
+            ThucHien = new SqlCommand(sql, Ketnoi);
+            Ketnoi.Open();
             ThucHien.ExecuteNonQuery();
-            KetNoi.Close();
-            HienDuLieu();
+            Ketnoi.Close();
+            Xemdulieu();
         }
 
         private void buttonThoat_Click(object sender, EventArgs e)
@@ -121,15 +121,15 @@ namespace Quản_Lý_Bán_Sách
         {
             //MessageBox.Show(treeView.SelectedNode.Text);
             sql = @"SELECT Sach.Ten FROM Sach INNER JOIN NhaXuatBan ON Sach.MaNXB = NhaXuatBan.MaNXB WHERE (NhaXuatBan.TenNXB = N'" + treeView.SelectedNode.Text + "')";
-            ThucHien = new SqlCommand(sql, KetNoi);
-            KetNoi.Open();
+            ThucHien = new SqlCommand(sql, Ketnoi);
+            Ketnoi.Open();
             DocDuLieu = ThucHien.ExecuteReader();
             treeView.SelectedNode.Nodes.Clear();
             while (DocDuLieu.Read())
             {
                 treeView.SelectedNode.Nodes.Add(DocDuLieu[0].ToString());
             }
-            KetNoi.Close();
+            Ketnoi.Close();
         }
 
         private void listView_SelectedIndexChanged(object sender, EventArgs e)

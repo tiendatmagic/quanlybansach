@@ -1,0 +1,19 @@
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\bin\Debug\Quản Lý Bán Sách.exe.config
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\bin\Debug\Quản Lý Bán Sách.exe
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\bin\Debug\Quản Lý Bán Sách.pdb
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản Lý Bán Sách.csprojResolveAssemblyReference.cache
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản_Lý_Bán_Sách.FormHeThong.resources
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản_Lý_Bán_Sách.FormQuanLySach.resources
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản_Lý_Bán_Sách.Properties.Resources.resources
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản Lý Bán Sách.csproj.GenerateResource.Cache
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản Lý Bán Sách.exe
+D:\On Thi Tot Nghiep\Tran Viet Cuong\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản Lý Bán Sách.pdb
+D:\quanlybanhang\Quản Lý Bán Sách\Quản Lý Bán Sách\bin\Debug\Quản Lý Bán Sách.exe.config
+D:\quanlybanhang\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản Lý Bán Sách.exe
+D:\quanlybanhang\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản Lý Bán Sách.pdb
+D:\quanlybanhang\Quản Lý Bán Sách\Quản Lý Bán Sách\bin\Debug\Quản Lý Bán Sách.exe
+D:\quanlybanhang\Quản Lý Bán Sách\Quản Lý Bán Sách\bin\Debug\Quản Lý Bán Sách.pdb
+D:\quanlybanhang\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản Lý Bán Sách.csprojResolveAssemblyReference.cache
+D:\quanlybanhang\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản_Lý_Bán_Sách.FormQuanLySach.resources
+D:\quanlybanhang\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản_Lý_Bán_Sách.Properties.Resources.resources
+D:\quanlybanhang\Quản Lý Bán Sách\Quản Lý Bán Sách\obj\Debug\Quản Lý Bán Sách.csproj.GenerateResource.Cache
